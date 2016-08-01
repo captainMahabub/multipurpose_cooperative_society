@@ -10,7 +10,7 @@ if($admin_login_query->num_rows>0){
 	
 	session_start();
 	$_SESSION['email'] = $email;
-	header("Location: mcslsystem/");
+	header("Location: management/");
 }
 
 else{
