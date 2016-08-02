@@ -22,88 +22,82 @@
             </button>
             
             <h4 class = "modal-title" id = "myModalLabel">
-               This Modal title
+               Add New Account Holder
             </h4>
          </div>
          
          <div class = "modal-body">
-            <form class = "form-inline" role = "form">
+            <form class = "form-inline" role = "form" name="account_form" method="post" action="submit_account.php">
    
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name"></label>
+      <input type = "hidden" name="id" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
       <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <input type = "text" name="name" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Father's Name</label>
+      <input type = "text" name="fathersname" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Mother's Name</label>
+      <input type = "text" name="mothersname" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Birth Date</label>
+      <input type = "text" name="birthdate" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Gender</label>
+      <input type = "text" name="gender" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Mobile No</label>
+      <input type = "text" name="mobile" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">E-mail</label>
+      <input type = "text" name="email" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">NID Number</label>
+      <input type = "text" name="nid" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Account Type</label>
+      <input type = "text" name="accountType" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Primary Deposit</label>
+      <input type = "text" name="primaryDeposite" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Address</label>
+      <input type = "text" name="address" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Brunch</label>
+      <input type = "text" name="brunch" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Verifier</label>
+      <input type = "text" name="verifier" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
-   </div>
-   <div class = "form-group">
-      <label class = "sr-only" for = "name">Name</label>
-      <input type = "text" class = "form-control" id = "name" placeholder = "Enter Name">
+      <label class = "sr-only" for = "name">Nominee</label>
+      <input type = "text" name="nominee" class = "form-control" id = "name" placeholder = "Enter Name">
    </div>
    
    <div class = "form-group">
       <label class = "sr-only" for = "inputfile">File input</label>
-      <input type = "file" id = "inputfile">
+      <input type = "file" name="photo" id = "inputfile">
+   </div>
+   <div class = "form-group">
+      <input class="btn btn-primary" type="submit" name="" value="Submit">
    </div>
    
-   <div class = "checkbox">
-      <label><input type = "checkbox"> Check me out</label>
-   </div>
-   
-   <button type = "submit" class = "btn btn-default">Submit</button>
 </form>
          </div>
          
@@ -112,7 +106,7 @@
                Close
             </button>
             
-            <input class="btn btn-primary" type="submit" name="" value="Submit">
+            
          </div>
          
       </div><!-- /.modal-content -->
